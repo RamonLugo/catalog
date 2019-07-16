@@ -1,0 +1,33 @@
+<!-- publicOneItem.html - Public template to show detailed item data -->
+
+<html>
+<head>
+  <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+  <body>
+
+    <div class="headerbar">
+      <div class="apptitle">
+          Automobile Catalog
+      </div>
+    </div>
+    <div class="small-container dark-grey">
+      <div class="description-items"><h4>Name: {{item.name}}</h4></div>
+
+      <div class="description-items">Category: {{category.name}}</div>
+
+      <div class="description-items">Description: {{item.description}}</div>
+
+      <div class="description-items">Base Price: {{item.cost}}</div>
+      <p></p>
+      <div>
+        <a href = '{{url_for("showItems", category_id = category.id)}}'>Return to Items List</a>
+      </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

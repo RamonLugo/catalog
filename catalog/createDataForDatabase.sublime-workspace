@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"requests\tmodule ⟠"
+			],
+			[
+				"j",
+				"json\tmodule ⟠"
+			],
+			[
+				"htt",
+				"httplib2\tmodule ⟠"
+			],
+			[
+				"flow",
+				"FlowExchangeError\ttype ⟠"
+			],
+			[
+				"oa",
+				"oauth2client\tmodule ⟠"
+			],
+			[
+				"fl",
+				"flask\tmodule ⟠"
+			],
+			[
+				"json",
+				"jsonify\tfunction ⟠"
+			],
+			[
+				"get",
+				"getUserID\tfunction ⟠"
+			],
+			[
+				"da",
+				"dates"
+			],
+			[
+				"dat",
+				"dates"
+			],
+			[
+				"em",
+				"employer"
+			],
+			[
+				"s",
+				"start"
+			],
+			[
+				"p",
+				"pictureURL"
+			],
+			[
+				"c",
+				"contactInfo"
+			],
+			[
+				"my",
+				"myname"
+			],
+			[
+				"ti",
+				"tip"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"A File Icon: Revert to a Freshly Installed State"
+			],
+			[
+				"sub",
+				"Preferences: SublimeLinter Key Bindings"
+			],
+			[
+				"sublimelinter ",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"Package Control: Install Package",
+			"Install Package",
+			"Install Package LiveReload",
+			"install",
+			"cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/",
+			"install \"LiveReload\"",
+			"install LiveReload",
+			"Package Control: Install Package LiveReload"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/publicItems.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/publicMain.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/publicOneItem.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/publicCategories.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/newItem.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/newCategory.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/mainitemsForCategory.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/edititem.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/editCategory.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/deleteItem.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/deleteCategories.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/categories.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/login.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/default.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/templates/items.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/static/css/styles.css",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/client_secrets.json",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/application.py",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/static/js/gconnect.js",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/fullstack-nanodegree-vm-master/vagrant/catalog/database_setup.py",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/oauth/templates/login.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/oauth/project.py",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/oauth/database_setup.py",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/oauth/lotsofmenus.py",
+		"/Users/rlugosr/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/rlugosr/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/keymaps/Default (OSX).sublime-keymap",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/course-ud303/Lesson-2/7_BookmarkServer/solution/BookmarkServer.py",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/course-ud303/Lesson-2/4_MessageboardPartTwo/MessageboardPartTwo.py",
+		"/Users/rlugosr/Practice/Udacity/course-collaboration-travel-plans/css/app.css",
+		"/Users/rlugosr/Practice/Udacity/course-collaboration-travel-plans/index.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/course-git-blog-project/index.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/new-git-project/index.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/new-git-project/css/app.css",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/new-git-project/.gitignore",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/New-Git-Project/index.html",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/New-Git-Project/css/app.css",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/New-Git-Project/js/app.js",
+		"/Users/rlugosr/Practice/Udacity/Full-Stack-nanodegree/New-Git-Project/.gitignore",
+		"/Users/rlugosr/Practice/Udacity/udacity-git-course/new-git-project/css/app.css",
+		"/Users/rlugosr/Practice/Udacity/udacity-git-course/new-git-project/.gitignore",
+		"/Users/rlugosr/Practice/Udacity/udacity-git-course/new-git-project/index.html",
+		"/Users/rlugosr/Practice/Udacity/udacity-git-course/new-git-project/.git/TAG_EDITMSG",
+		"/Users/rlugosr/Websites/DC/style.css",
+		"/Users/rlugosr/KiteOnboarding.py",
+		"/Users/rlugosr/Websites/Crossfilter/template.html",
+		"/Users/rlugosr/Websites/Crossfilter/crossdata.js",
+		"/Users/rlugosr/Websites/Crossfilter/print_filter.js",
+		"/Users/rlugosr/Practice/D3/d3-book-2.0.3/chapter_07/01_scale_test.html",
+		"/Users/rlugosr/Websites/Chapter7/scales/index.html",
+		"/Users/rlugosr/Websites/Chapter7/scales/scales.js",
+		"/Users/rlugosr/Websites/Chapter6/ScatterPlot/scatterplot.js",
+		"/Users/rlugosr/Websites/Chapter7/scales.html",
+		"/Users/rlugosr/Websites/Chapter6/ScatterPlot/index.html",
+		"/Users/rlugosr/Websites/Chapter6/barchart/index.html",
+		"/Users/rlugosr/Websites/Chapter6/barchart/barchart.js",
+		"/Users/rlugosr/Websites/Chapter6/scripts/Chapter6.js",
+		"/Users/rlugosr/Websites/css/style.css",
+		"/Users/rlugosr/Websites/scripts/Chapter6.js",
+		"/Users/rlugosr/Websites/Chapter6/circle/circle.js",
+		"/Users/rlugosr/Websites/Chapter6/circle/index.html",
+		"/Users/rlugosr/Websites/Chapter6/index.html",
+		"/Users/rlugosr/Websites/Chapter6/style.css",
+		"/Users/rlugosr/Practice/D3/data_vis_demo/d3_demo.html",
+		"/Users/rlugosr/Practice/Bootstrap/js/script.js",
+		"/Users/rlugosr/Practice/Bootstrap/css/styles.css",
+		"/Users/rlugosr/Desktop/Project/index.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 152.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "createDataForDatabase.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

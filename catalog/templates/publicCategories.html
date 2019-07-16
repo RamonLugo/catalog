@@ -1,0 +1,31 @@
+ <!-- publicCategories.html - Public template to list cetagories -->
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+  <body>
+    <div class="headerbar">
+      <div class="apptitle">
+          Automobile Catalog
+      </div>
+    </div>
+    <div class="small-container darkgrey-box">
+  		<h1 class="center">Categories</h1>
+  		{% for category in categories %}
+        <ul>
+    			<li>Id: {{category.id}}</li>
+    			<li>Name: {{category.name}}</li>
+  			  <li>
+      			<a href = '{{url_for("showItems", category_id = category.id) }}'><button>Show Items</button></a>
+          </li>
+        </ul>
+  		{% endfor %}
+        <div class="create">
+          <a class="create" href = '{{url_for("showMainPage")}}'>Show Automobile Catalog</a>
+         </div>
+  	</div>
+</body>
+
+</html>

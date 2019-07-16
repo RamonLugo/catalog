@@ -1,0 +1,36 @@
+<!-- editCategory.html - edit category template  -->
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+  <body>
+
+    <div class="headerbar">
+      <div class="apptitle">
+          Automobile Catalog
+      </div>
+      <div class="applogout">
+        {% if 'user_id' in session %}
+          <a href='{{url_for("gDisconnect")}}'>Log Out</a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="container dark-grey">
+      <h2>Edit name for {{category.name}}</h2>
+
+      <form action="{{url_for('editCategory', category_id=category.id)}}" method = 'POST'>
+
+        <p>Name</p>
+
+        <input type='text' size='30' name='name' value='{{category.name}}' required="">
+
+        <input class="button" type='submit' value='Submit'>
+        <a href = '{{url_for("showCategories")}}'>Cancel</a>
+
+      </form>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!-- publicItems.html - list items Public template -->
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+  <body>
+    <div class="headerbar">
+      <div class="apptitle">
+          Automobile Catalog
+      </div>
+    </div>
+		<div class="container darkgrey-box">
+			<h1>Name: {{category.name}}</h1>
+      <h4>Category ID: {{category.id}}</h4>
+			{% for item in items %}
+			<div>
+				<h4>Name: {{item.name}}</h4>
+        <!-- <p>Category ID: {{item.category_id}} </p> -->
+				<p>Description: {{item.description}}</p>
+				<p>Base Price: {{item.cost}} </p>
+        <a href='{{url_for("showOneItem", category_id = category.id, item_id = item.id) }}'><button>Show Detail</button></a>
+			</div>
+        <div class="divider">&nbsp;</div>
+			{% endfor %}
+      <p></p>
+			<a href = '{{url_for("showCategories")}}'>Back to the Automobile Categories</a>
+		</div>
+	</body>
+</html>

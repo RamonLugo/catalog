@@ -1,0 +1,42 @@
+<!-- categories.html - logged-in users Template -->
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+  <body>
+    <div class="headerbar">
+      <div class="apptitle">
+          Automobile Catalog
+      </div>
+      <div class="applogout">
+        {% if 'user_id' in session %}
+          <a href='{{url_for("gDisconnect")}}'>Log Out</a>
+        {% endif %}
+      </div>
+
+      <div class="container darkgrey-box">
+    			<h1 class="center">Automobile Categories</h1>
+    		{% for category in categories %}
+          <ul>
+      			<li>Id: {{category.id}}</li>
+      			<li>Name: {{category.name}}</li>
+    			  <li>
+              <a href ='{{url_for("editCategory", category_id = category.id) }}'><button>Edit</button></a>
+        			<a href ='{{url_for("deleteCategory", category_id = category.id) }}'><button>Delete</button></a>
+        			<a href ='{{url_for("showItems", category_id = category.id) }}'><button>Show Items</button></a>
+            </li>
+          </ul>
+    		{% endfor %}
+  		<div>
+  				<a class="new-category" href = '{{url_for("newCategory")}}'>Create New Automobile Category</a>
+  		</div>
+      <p></p>
+      <div>
+          <a class="new-category" href = '{{url_for("showMainPage")}}'>Show Automobile Catalog</a>
+      </div>
+    </div>
+</body>
+
+</html>

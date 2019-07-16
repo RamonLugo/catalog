@@ -1,0 +1,48 @@
+<!-- publicMain.html - main page Public template -->
+
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="headerbar">
+	  <div class="apptitle">
+	      Automobile Catalog
+		</div>
+	</div>
+<!-- Categories -->
+  <div class="container dark-grey">
+  	<div class="categories-part border">
+  		<div class="list-title bold">
+  			Categories
+  		</div>
+      <ul class='list'>
+  		{% for category in categories %}
+
+  			<li><a href='{{url_for("showItemsForCategory", category_id = category.id, items = items) }}'>{{category.name}}</a></li>
+
+  		{% endfor %}
+      </ul>
+
+        <div class="create">
+          <a class="create" href = '{{url_for("showCategories")}}'>Show All Automobile Categories</a>
+         </div>
+  		</div>
+
+<!-- Items -->
+      <div class="items-part">
+    		<div class="list-title bold">
+    			Latest Items
+    		</div>
+    		<ul class='list'>
+      		{% for item in items %}
+        			<li><a href='{{url_for("showOneItem",
+                category_id = item.category_id, item_id = item.id) }}'>{{item.name}}</a></li>
+      		{% endfor %}
+        </ul>
+    		</div>
+    </div>
+</body>
+
+</html>

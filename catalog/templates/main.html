@@ -1,0 +1,58 @@
+<!-- main.html - default page for logged-in users -->
+
+<html>
+	<head>
+	  	<meta charset="UTF-8">
+  		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+	</head>
+	<body>
+		<div class="headerbar">
+			<div class="apptitle">
+			      Automobile Catalog
+			</div>
+		    <div class="applogout">
+			    {% if 'user_id' in session %}
+			      <a href='{{url_for("gDisconnect")}}'>Log Out</a>
+	    		{% endif %}
+		    </div>
+
+			<!-- Begin Section: Categories -->
+			<div class="container dark-grey">
+			  	<div class="categories-part border">
+			  		<div class="list-title bold">
+			  			Automobile Categories
+			  		</div>
+				    <ul class='list'>
+				  		{% for category in categories %}
+
+				  			<li><a href='{{url_for("showItemsForCategory", category_id = category.id, items = items) }}'>{{category.name}}</a></li>
+
+				  		{% endfor %}
+				    </ul>
+
+			  		<div class="create">
+			  			<a class="create" href = '{{url_for("newCategory")}}'>Create New Automobile Category</a>
+				    </div>
+				    <div class="create">
+				          <a class="create" href = '{{url_for("showCategories")}}'>Show All Automobile Categories</a>
+				    </div>
+				</div>
+			<!-- End Section: Categories -->
+
+			<!-- Begin Section: Items -->
+			    <div class="items-part">
+		    		<div class="list-title bold">
+		    			These are the Latest Items:
+		    		</div>
+		    		<ul class='list'>
+			      		{% for item in items %}
+			        			<li><a href='{{url_for("showOneItem",
+			                category_id = item.category_id, item_id = item.id)}}'>{{item.name}}</a></li>
+			      		{% endfor %}
+			        </ul>
+			    </div>
+			<!-- End Section: Items -->
+			</div>
+		</div>
+	</body>
+</html>
